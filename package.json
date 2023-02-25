@@ -1,6 +1,6 @@
 {
     "name": "fpuzzles-data",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Type definitions for f-puzzles exported data",
     "author": "Chameleon",
     "license": "MIT",
@@ -24,5 +24,12 @@
         "eslint-plugin-prettier": "^4.2.1",
         "prettier": "^2.8.4",
         "typescript": "^4.9.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yusitnikov/fpuzzles-data"
+    },
+    "bugs": {
+        "url": "https://github.com/yusitnikov/fpuzzles-data/issues"
     }
 }
