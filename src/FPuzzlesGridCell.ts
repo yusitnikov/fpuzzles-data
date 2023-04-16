@@ -15,5 +15,7 @@ export interface FPuzzlesGridCell {
     givenPencilMarks?: number[] | null;
     // Array of given colors (by multi-coloring extension)
     cArray?: string[];
+    // Array of solver's background colors (by multi-coloring extension)
+    highlightArray?: string[];
     // endregion
 }
