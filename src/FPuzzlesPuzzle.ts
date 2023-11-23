@@ -46,8 +46,6 @@ export interface FPuzzlesPuzzle {
     clone?: FPuzzlesClone[];
     quadruple?: FPuzzlesQuadruple[];
     betweenline?: FPuzzlesLineCoords[];
-    // Undocumented
-    lockout?: any;
     minimum?: FPuzzlesCellCoords[];
     maximum?: FPuzzlesCellCoords[];
     line?: FPuzzlesLine[];
@@ -60,9 +58,12 @@ export interface FPuzzlesPuzzle {
     disabledlogic?: string[];
     truecandidatesoptions?: string[];
     solution?: number[];
+    successMessage?: string;
     // region Constraints
     renban?: FPuzzlesLineCoords[];
     whispers?: FPuzzlesLineCoords[];
+    regionsumline?: FPuzzlesLineCoords[];
+    lockout?: FPuzzlesLineCoords[];
     fogofwar?: FPuzzlesCellsCoords["cells"];
     foglight?: FPuzzlesCellsCoords["cells"];
     // endregion
