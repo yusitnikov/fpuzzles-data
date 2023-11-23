@@ -15,6 +15,7 @@ import {
     FPuzzlesSandwichSum,
     FPuzzlesClone,
 } from "./constraints";
+import {FPuzzlesRect} from "./constraints/FPuzzlesRect";
 
 export interface FPuzzlesPuzzle {
     // region Core fields
@@ -49,7 +50,7 @@ export interface FPuzzlesPuzzle {
     minimum?: FPuzzlesCellCoords[];
     maximum?: FPuzzlesCellCoords[];
     line?: FPuzzlesLine[];
-    rectangle?: FPuzzlesShape[];
+    rectangle?: FPuzzlesRect[];
     circle?: FPuzzlesShape[];
     text?: FPuzzlesText[];
     // endregion
