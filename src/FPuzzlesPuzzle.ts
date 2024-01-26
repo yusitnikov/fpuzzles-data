@@ -16,6 +16,7 @@ import {
     FPuzzlesClone,
 } from "./constraints";
 import {FPuzzlesRect} from "./constraints/FPuzzlesRect";
+import {FPuzzlesOutsideClue} from "./constraints/FPuzzlesOutsideClue";
 
 export interface FPuzzlesPuzzle {
     // region Core fields
@@ -40,7 +41,7 @@ export interface FPuzzlesPuzzle {
     xv?: FPuzzlesXV[];
     thermometer?: FPuzzlesLineCoords[];
     palindrome?: FPuzzlesLineCoords[];
-    sandwichsum?: FPuzzlesSandwichSum[];
+    sandwichsum?: FPuzzlesOutsideClue[];
     even?: FPuzzlesCellCoords[];
     odd?: FPuzzlesCellCoords[];
     extraregion?: FPuzzlesCellsCoords[];
@@ -64,7 +65,17 @@ export interface FPuzzlesPuzzle {
     renban?: FPuzzlesLineCoords[];
     whispers?: FPuzzlesLineCoords[];
     regionsumline?: FPuzzlesLineCoords[];
+    entropicline?: FPuzzlesLineCoords[];
+    modularline?: FPuzzlesLineCoords[];
+    zipperline?: FPuzzlesLineCoords[];
+    nabner?: FPuzzlesLineCoords[];
+    doublearrow?: FPuzzlesLineCoords[];
     lockout?: FPuzzlesLineCoords[];
+    rowindexer?: FPuzzlesCellsCoords[];
+    columnindexer?: FPuzzlesCellsCoords[];
+    boxindexer?: FPuzzlesCellsCoords[];
+    xsum?: FPuzzlesOutsideClue[];
+    skyscraper?: FPuzzlesOutsideClue[];
     fogofwar?: FPuzzlesCellsCoords["cells"];
     foglight?: FPuzzlesCellsCoords["cells"];
     // endregion

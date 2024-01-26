@@ -12,3 +12,5 @@ export * from "./FPuzzlesSandwichSum";
 export * from "./FPuzzlesShape";
 export * from "./FPuzzlesText";
 export * from "./FPuzzlesXV";
+export * from "./FPuzzlesOutsideClue";
+export * from "./FPuzzlesWhispers";

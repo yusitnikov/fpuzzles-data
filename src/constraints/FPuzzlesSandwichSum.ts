@@ -1,5 +1,6 @@
-import {FPuzzlesCellCoords} from "./FPuzzlesCellCoords";
+import {FPuzzlesOutsideClue} from "./FPuzzlesOutsideClue";
 
-export interface FPuzzlesSandwichSum extends FPuzzlesCellCoords {
-    value?: string | number;
-}
+/**
+ * @deprecated
+ */
+export type FPuzzlesSandwichSum = FPuzzlesOutsideClue;

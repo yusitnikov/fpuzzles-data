@@ -4,4 +4,5 @@ export interface FPuzzlesKillerCage<ValueT> extends FPuzzlesCellsCoords {
     value?: ValueT;
     outlineC?: string;
     fontC?: string;
+    fromConstraint?: string;
 }

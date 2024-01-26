@@ -1,6 +1,6 @@
 {
     "name": "fpuzzles-data",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Type definitions for f-puzzles exported data",
     "author": "Chameleon",
     "license": "MIT",

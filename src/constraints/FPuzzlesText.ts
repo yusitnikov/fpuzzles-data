@@ -5,4 +5,5 @@ export interface FPuzzlesText extends FPuzzlesCellsCoords {
     fontC?: string;
     size?: number;
     angle?: number;
+    fromConstraint?: string;
 }
