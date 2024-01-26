@@ -13,7 +13,7 @@ import {
     FPuzzlesText,
     FPuzzlesShape,
     FPuzzlesSandwichSum,
-    FPuzzlesClone,
+    FPuzzlesClone, FPuzzlesWhispers,
 } from "./constraints";
 import {FPuzzlesRect} from "./constraints/FPuzzlesRect";
 import {FPuzzlesOutsideClue} from "./constraints/FPuzzlesOutsideClue";
@@ -63,7 +63,7 @@ export interface FPuzzlesPuzzle {
     successMessage?: string;
     // region Constraints
     renban?: FPuzzlesLineCoords[];
-    whispers?: FPuzzlesLineCoords[];
+    whispers?: FPuzzlesWhispers[];
     regionsumline?: FPuzzlesLineCoords[];
     entropicline?: FPuzzlesLineCoords[];
     modularline?: FPuzzlesLineCoords[];
