@@ -8,4 +8,5 @@ export interface FPuzzlesShape extends FPuzzlesCellsCoords {
     outlineC?: string;
     fontC?: string;
     angle?: number;
+    fromConstraint?: boolean;
 }

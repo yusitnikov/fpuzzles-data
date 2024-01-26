@@ -12,10 +12,11 @@ import {
     FPuzzlesKropkiDot,
     FPuzzlesText,
     FPuzzlesShape,
-    FPuzzlesSandwichSum,
-    FPuzzlesClone, FPuzzlesWhispers,
+    FPuzzlesClone,
+    FPuzzlesWhispers,
 } from "./constraints";
 import {FPuzzlesRect} from "./constraints/FPuzzlesRect";
+// noinspection ES6PreferShortImport
 import {FPuzzlesOutsideClue} from "./constraints/FPuzzlesOutsideClue";
 
 export interface FPuzzlesPuzzle {
